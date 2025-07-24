@@ -1,0 +1,191 @@
+/* navbar section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* header section */
+
+.header{
+    margin: 30px;
+    padding: 15px;
+}
+
+.head{
+  text-align: center;
+    font-size: 80px;
+}
+.paragraph{
+    margin: 45px;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+/* About section */
+.about{
+      text-align: center;
+       margin: 30px;
+}
+.btn{
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.abt{
+     text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+/* resume section */
+
+
+.resume{
+    text-align: center;
+       margin: 30px;
+}
+
+  .resume-section {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    
+  }
+  .resume-header{
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  .resume-item {
+    margin: 30px;
+  }
+  .resume-item-header{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+  }
+
+  .resume-date {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-top: 65px;
+    padding: 15px;
+    
+  }
+
+  h3 {
+    margin: 5px 0;
+    color: #333;
+  }
+
+  p {
+    margin: 0 0 10px;
+    color: #777;
+  }
+
+  /* service section */
+
+  .card-section{
+     text-align: center;
+       margin: 30px;
+  }
+  .card-heading{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+   .card-header{
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      padding: 40px;
+      margin: 0;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #1f2937;
+    }
+
+    .card p {
+      font-size: 14px;
+      color:black;
+      margin-bottom: 15px;
+    }
+
+    .card .project-count {
+      font-size: 16px;
+      font-weight: bold;
+      color: #3d08eb;
+    }
